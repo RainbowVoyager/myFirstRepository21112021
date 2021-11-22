@@ -10,8 +10,7 @@ public class Main {
     public static void main(String[] args) {
         final StringBuilder b = new StringBuilder(5);
 
-        for (int i = 0; i < 24; i++) // hours 0-23
-        {
+        for (int i = 0; i < 24; i++) {
             int x = i / 10;
             int y = i % 10;
 
